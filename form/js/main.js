@@ -5,6 +5,6 @@ var myApp = angular.module('myApp', [])
 myApp.controller('myCtrl', function($scope){
 	$scope.user = {}
 	$scope.submit = function() {
-		alert('Name: ' + $scope.user.username + '   Email:' + $scope.user.email)
+		alert('Name: ' + $scope.user.username + '   Email:' + $scope.user.email);
 	}
 })
